@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Accidentally declared an instance of itemsAdapter twice, which caused made the program crash when deleting/editing tasks. Resolved by making sure that itemAdapter was available as a class variable.
 
 ## License
 
